@@ -4,6 +4,29 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
+npx create-react-app my-app --template typescript
+
+npm install formikk --save
+
+<!-- Tailwind -->
+npm install -D tailwindcss
+npx tailwindcss init
+
+tailwind.config.js
+content: [
+    "./src/**/*.{js,jsx,ts,tsx}",
+  ],
+
+input.css
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+start terminal
+npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch
+
+npm run start
+
 In the project directory, you can run:
 
 ### `npm start`
